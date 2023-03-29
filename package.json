@@ -1,0 +1,19 @@
+{
+  "name": "markov-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "makeText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderhimanshu1/Markov-Machine.git"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderhimanshu1/Markov-Machine/issues"
+  },
+  "homepage": "https://github.com/coderhimanshu1/Markov-Machine#readme"
+}
