@@ -12,7 +12,7 @@ function generateText(text) {
   console.log(mm.makeText());
 }
 
-/** read file and generate text from it. */
+/**** read file and generate text from it ****/
 
 function makeText(path) {
   fs.readFile(path, "utf8", (err, data) => {
@@ -25,7 +25,7 @@ function makeText(path) {
   });
 }
 
-/** read URL and make text from it. */
+/**** read URL and generate text from it ****/
 
 async function makeURLText(url) {
   let resp;
@@ -39,7 +39,7 @@ async function makeURLText(url) {
   generateText(resp.data);
 }
 
-/** interpret cmdline to decide what to do. */
+/**** Check whether to read from file or path ****/
 
 let [method, path] = process.argv.slice(2);
 
